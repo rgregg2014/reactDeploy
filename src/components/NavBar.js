@@ -1,9 +1,10 @@
 import React from "react";
+import "../assets/css/navBar.css";
 
 export default function NavBar() {
   return (
     <div>
-      <h1>This is a Navbar component</h1>
+      <h1 className="head">Roll the Dice!</h1>
     </div>
   );
 }
