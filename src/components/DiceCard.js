@@ -15,11 +15,15 @@ export default function DiceCard() {
   return (
     <div className="container">
       <h2 className="heading">D20 Roller</h2>
-      <img alt="a wireframe of an icosahedron" src={d20} className="d20"></img>
       <button onClick={RNG} className="button">
-        Click Here
+        <img
+          alt="a wireframe of an icosahedron"
+          src={d20}
+          className="d20"
+        ></img>
+        <h4>Click Here</h4>
       </button>
-      <h4 className="heading">{roll}</h4>
+      <h2 className="heading">{roll}</h2>
     </div>
   );
 }
